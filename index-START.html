@@ -22,10 +22,15 @@
 	let lastY= 0;
 
 	function draw(e){
-		console.log(e);
+		// console.log(e);
+		if(!isDrawing) return; //Stops function from running when isDrawing variable is false
+		
 	}
 
 	canvas.addEventListener("mousemove", draw);
+	canvas.addEventListener("mousedown", () => isDrawing = true);
+	canvas.addEventListener("mouseup", ( => isDrawing = false));
+
 
 </script>
 
