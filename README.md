@@ -2,6 +2,8 @@
 
 Canvas, HSL, mouse events
 
+Download or clone repository and click the index.html file to run. Hold the left mouse button down And move the mouse to draw in the browser window.
+
 ![](images/08_00.png)
 
 ### Canvas
